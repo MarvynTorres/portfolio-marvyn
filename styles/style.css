@@ -8,7 +8,7 @@ main{
     margin-bottom:57px;
     margin-top:38px;
     line-height:10px;
-    align-content: center;
+    align-content:center;
 }
 
 #leftColumn{
@@ -42,4 +42,19 @@ img{
     float:left;
     margin-left:100px;
     margin-top:auto;
+}
+
+#leftText{
+    right:52%;
+    margin-right:auto;
+    margin-top:100px;
+    position:absolute;
+    float:right;
+}
+
+#graduation{
+    line-height:15px;
+    font-family:"Open Sans", sans-serif;   
+    font-weight:bolder;     
+    color:blue;
 }
