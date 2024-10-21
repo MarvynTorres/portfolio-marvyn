@@ -1,8 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 main{
-    line-height:10;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-left:57px;
+    margin-right:57px;
+    margin-bottom:57px;
+    margin-top:38px;
+    line-height:10px;
+    align-content: center;
 }
 
-mainTitle{
-    font-size:36;
+#leftColumn{
+    float:left;
+    width:50%;
+}
 
+#rightColumn{
+    float:right;
+    width:50%;
+}
+
+.mainTitle{
+    font-size:52px;
+    font-family:"Merriweather", serif;
+    float:right;
+}
+
+.subTitle{
+    font-weight:lighter;
+    font-size:20px;
+    font-family:"Open Sans", sans-serif;
+    float:right;
+    margin:auto;
+    width:61%;
+}
+
+img{
+    height:250px;
+    width:190px;
+    float:left;
+    margin-left:100px;
+    margin-top:auto;
 }
