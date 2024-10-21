@@ -41,7 +41,6 @@ img{
     width:190px;
     float:left;
     margin-left:100px;
-    margin-top:auto;
 }
 
 #leftText{
@@ -52,9 +51,36 @@ img{
     float:right;
 }
 
-#graduation{
+#rightText{
+    left:52%;
+    margin-left:auto;
+    margin-top:100px;
+    position:absolute;
+    float:left;    
+}
+
+.division{
     line-height:15px;
     font-family:"Open Sans", sans-serif;   
     font-weight:bolder;     
     color:blue;
+}
+
+.foundation{
+    font-weight:bold;
+}
+
+.degree{
+    font-style:italic;
+}
+
+.period{
+    font-family:"Open Sans", sans-serif;
+    font-size:12px;
+    color: rgba(58, 58, 56, 0.9);
+    line-height:5px;
+}
+
+.text{
+    color: rgba(58, 58, 56, 0.9);    
 }
