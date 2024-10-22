@@ -3,12 +3,16 @@
 
 main{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    margin-left:57px;
-    margin-right:57px;
-    margin-bottom:57px;
-    margin-top:38px;
-    line-height:10px;
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:6%;
+    margin-top:3%;
+    line-height:50%;
     align-content:center;
+}
+
+div{
+    display:inline-block;
 }
 
 #leftColumn{
@@ -21,46 +25,50 @@ main{
     width:50%;
 }
 
+.title{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-left:5%
+    font-size:100%;
+}
+
 .mainTitle{
-    font-size:52px;
+    font-size:330%;
     font-family:"Merriweather", serif;
     float:right;
 }
 
 .subTitle{
     font-weight:lighter;
-    font-size:20px;
+    font-size:115%;
     font-family:"Open Sans", sans-serif;
     float:right;
-    margin:auto;
-    width:61%;
+    margin-right:7%;
 }
 
 img{
-    height:250px;
-    width:190px;
+    height:45%;
+    width:35%;
     float:left;
-    margin-left:100px;
+    margin-left:15%;
 }
 
 #leftText{
     right:52%;
-    margin-right:auto;
-    margin-top:100px;
-    position:absolute;
+    margin-right:5%;
+    margin-top:5%;
     float:right;
 }
 
 #rightText{
     left:52%;
-    margin-left:72px;
-    margin-top:252px;
-    position:absolute;
+    margin-left:15%;
     float:left;    
 }
 
 .division{
-    line-height:15px;
+    line-height:100%;
     font-family:"Open Sans", sans-serif;   
     font-weight:bolder;     
     color:blue;
@@ -76,11 +84,23 @@ img{
 
 .period{
     font-family:"Open Sans", sans-serif;
-    font-size:12px;
+    font-size:70%;
     color: rgba(58, 58, 56, 0.9);
-    line-height:5px;
+    line-height:5%;
 }
 
 .text{
     color: rgba(58, 58, 56, 0.9);    
 }
+
+@media (max-width: 768px) {
+    #leftColumn, #rightColumn {
+        width: 100%; /* Coloque os elementos em coluna */
+        margin: 0; /* Remova margens para melhor aproveitamento de espaço */
+    }
+    img {
+        width: 50%; /* Ou ajuste conforme necessário */
+        height: auto; /* Mantenha a proporção */
+    }
+}
+
