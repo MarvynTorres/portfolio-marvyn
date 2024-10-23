@@ -36,15 +36,12 @@ div{
 .mainTitle{
     font-size:330%;
     font-family:"Merriweather", serif;
-    float:right;
 }
 
 .subTitle{
     font-weight:lighter;
     font-size:115%;
     font-family:"Open Sans", sans-serif;
-    float:right;
-    margin-right:7%;
 }
 
 img{
@@ -94,13 +91,10 @@ img{
 }
 
 @media (max-width: 768px) {
-    #leftColumn, #rightColumn {
-        width: 100%; /* Coloque os elementos em coluna */
-        margin: 0; /* Remova margens para melhor aproveitamento de espaço */
-    }
-    img {
-        width: 50%; /* Ou ajuste conforme necessário */
-        height: auto; /* Mantenha a proporção */
+    main {
+        font-size:25%;
+        line-height:100%;
+        margin:auto;
     }
 }
 
