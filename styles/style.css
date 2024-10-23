@@ -3,12 +3,11 @@
 
 main{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    margin-left:15%;
-    margin-right:15%;
-    margin-bottom:6%;
+    margin-left:13%;
+    margin-right:13%;
     margin-top:3%;
+    width:75%;
     line-height:50%;
-    align-content:center;
     display:flex;
     flex-direction:row;
 }
@@ -85,6 +84,7 @@ img{
         width:100%;
         float:none;
         font-size:35%;
+        margin-bottom:10%;
     }
 
     #leftText, #rightText{
