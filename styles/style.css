@@ -90,11 +90,28 @@ img{
     color: rgba(58, 58, 56, 0.9);    
 }
 
-@media (max-width: 768px) {
-    main {
-        font-size:25%;
-        line-height:100%;
-        margin:auto;
+@media(max-width: 768px){
+    #leftColumn, #rightColumn{
+        width:100%;
+        float:none;
+        font-size:35%;
+        text-align:center;
     }
+
+    #leftText, #rightText{
+        margin:0;
+        float:none;
+        text-align:center;
+    }
+
+    .title{
+        float:left;
+    }
+
+    img{
+        float:right;
+        vertical-align:top;
+    }
+
 }
 
