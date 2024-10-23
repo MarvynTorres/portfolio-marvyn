@@ -9,20 +9,22 @@ main{
     margin-top:3%;
     line-height:50%;
     align-content:center;
-}
-
-div{
-    display:inline-block;
+    display:flex;
+    flex-direction:row;
 }
 
 #leftColumn{
-    float:left;
     width:50%;
+    display:flex;
+    flex-direction:column;
+    margin:5%;
 }
 
 #rightColumn{
-    float:right;
     width:50%;
+    display:flex;
+    flex-direction:column;
+    margin:5%;
 }
 
 .title{
@@ -31,6 +33,8 @@ div{
     align-items:center;
     margin-left:5%
     font-size:100%;
+    width:125%;
+    height:20%;
 }
 
 .mainTitle{
@@ -45,23 +49,9 @@ div{
 }
 
 img{
-    height:45%;
-    width:35%;
-    float:left;
-    margin-left:15%;
-}
-
-#leftText{
-    right:52%;
-    margin-right:5%;
-    margin-top:5%;
-    float:right;
-}
-
-#rightText{
-    left:52%;
-    margin-left:15%;
-    float:left;    
+    height:100%;
+    width:50%;
+    margin-left:25%;
 }
 
 .division{
@@ -95,22 +85,11 @@ img{
         width:100%;
         float:none;
         font-size:35%;
-        text-align:center;
     }
 
     #leftText, #rightText{
         margin:0;
         float:none;
-        text-align:center;
-    }
-
-    .title{
-        float:left;
-    }
-
-    img{
-        float:right;
-        vertical-align:top;
     }
 
 }
